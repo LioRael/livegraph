@@ -1,0 +1,19 @@
+Cargo.toml
+  s_4d491a7c279199::t_d5173bcb936d48 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "26cdb27cfa8c9fe2ae418bff32d435c87639200f",
+  "prompts": {},
+  "sessions": {
+    "s_4d491a7c279199": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a175cc-e1bd-74e1-acca-a2ddb42b8caa",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "LioRael <leo@lenso.dev>"
+    }
+  }
+}
