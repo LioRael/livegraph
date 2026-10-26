@@ -127,3 +127,5 @@ The longer data does not establish a stable incremental broadcast regression on 
 The library core is unchanged by release preparation. Release metadata, an explicit crate-file allowlist, installation instructions, changelog and GitHub CI were added. Local home/workspace paths in public benchmark text artifacts were redacted; timing samples and source hashes were retained.
 
 Rust 1.88.0 now passes native check, all-target/all-feature tests, doctests and the runnable example, confirming the declared minimum version. Rust 1.99.0 additionally supplies fmt and strict clippy validation. Earlier sections stating that the minimum version was untested describe their historical runs. CI is configured for Ubuntu (1.88 and stable), macOS stable and Windows stable; actual hosted results are reported separately from local validation.
+
+The hosted Rust 1.88 Clippy check identified one uninlined format argument in CSV output. It was corrected outside the timed operations, without changing the emitted CSV. Historical benchmark harness hashes therefore describe the measured revision; the library core remains unchanged.

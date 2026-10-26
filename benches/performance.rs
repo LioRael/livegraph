@@ -304,7 +304,7 @@ fn readers() {
                 black_box(sample());
                 let (reads, writes): (Vec<_>, Vec<_>) = (0..5).map(|_| sample()).unzip();
                 for (sample, (read, write)) in reads.iter().zip(&writes).enumerate() {
-                    eprintln!("{},{writing},{count},{sample},{read:.3},{write:.3}", mode);
+                    eprintln!("{mode},{writing},{count},{sample},{read:.3},{write:.3}");
                 }
                 println!(
                     "{},{writing},{count},5,{:.0},{:.0},{:.0},{:.0}",
