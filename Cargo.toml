@@ -10,7 +10,7 @@ documentation = "https://docs.rs/livegraph"
 readme = "README.md"
 keywords = ["graph", "incremental", "snapshot", "configuration", "dataflow"]
 categories = ["data-structures", "concurrency"]
-include = ["src/**", "tests/**", "examples/**", "benches/*.rs", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "CHANGELOG.md"]
+include = ["/src/**", "/tests/**", "/examples/**", "/benches/*.rs", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE", "/CHANGELOG.md"]
 
 [dependencies]
 arc-swap = "1.9.3"
