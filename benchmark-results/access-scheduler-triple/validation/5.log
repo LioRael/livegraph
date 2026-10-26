@@ -1,0 +1,7 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.07s
+     Running `target/debug/examples/config_reload`
+old v0: Routes { upstream: "https://localhost", max_connections: 100 }
+new v1: Routes { upstream: "https://api.example.com", max_connections: 250 }
+rejected: build parsed limit: invalid digit found in string
+rejected: validation connection budget: connection limit exceeds 1000
+still serving v1: Routes { upstream: "https://api.example.com", max_connections: 250 }

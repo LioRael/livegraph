@@ -1,0 +1,22 @@
+{
+  "source_sha256": {
+    "before": {
+      "src/lib.rs": "93629d65fb6f2aab9832398dab225096e8a720171f143f37ee69495d9562e45a",
+      "benches/performance.rs": "b8341858d0bbc993092a5e71198cb31853c5c5e50197f3f815eae02d4417dfe2",
+      "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+    },
+    "after": {
+      "src/lib.rs": "7d0c0ccfc449faf8c39acda5f3f78309957205dfdd325eebfbe2ffe1dee5c926",
+      "benches/performance.rs": "b8341858d0bbc993092a5e71198cb31853c5c5e50197f3f815eae02d4417dfe2",
+      "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+    }
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "passes": 3,
+  "started_at": "2026-10-26T11:42:43+0800",
+  "method": "same cases, alternating side first by case and pass; 9 samples per mode",
+  "elapsed_seconds": 218.185689959,
+  "completed_at": "2026-10-26T11:46:21+0800"
+}

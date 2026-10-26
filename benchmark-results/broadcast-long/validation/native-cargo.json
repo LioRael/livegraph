@@ -1,0 +1,75 @@
+[
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "fmt",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "check",
+      "--all-targets",
+      "--all-features",
+      "--locked"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "clippy",
+      "--all-targets",
+      "--all-features",
+      "--locked",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "test",
+      "--all-targets",
+      "--all-features",
+      "--locked"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "test",
+      "--doc",
+      "--locked"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+      "run",
+      "--example",
+      "config_reload",
+      "--locked"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/rustdoc",
+      "--test",
+      "README.md",
+      "--edition=2024",
+      "--extern",
+      "livegraph=<workspace>/outputs/livegraph/target/debug/deps/liblivegraph-251ec452c9991f24.rlib",
+      "-L",
+      "dependency=<workspace>/outputs/livegraph/target/debug/deps"
+    ],
+    "exit_code": 0
+  }
+]

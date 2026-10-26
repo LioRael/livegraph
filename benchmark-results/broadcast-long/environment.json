@@ -1,0 +1,87 @@
+{
+  "started_at": "2026-10-26T22:39:30+0800",
+  "source_sha256": {
+    "reference": {
+      "src/lib.rs": "93629d65fb6f2aab9832398dab225096e8a720171f143f37ee69495d9562e45a",
+      "benches/performance.rs": "3ccdeec29808c4c4ac957d8e51d12caa77b7391cd7c9972fbf46042ebd92e45d",
+      "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+    },
+    "previous": {
+      "src/lib.rs": "7d0c0ccfc449faf8c39acda5f3f78309957205dfdd325eebfbe2ffe1dee5c926",
+      "benches/performance.rs": "3ccdeec29808c4c4ac957d8e51d12caa77b7391cd7c9972fbf46042ebd92e45d",
+      "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+    },
+    "current": {
+      "src/lib.rs": "73fd69138139afbd65a97a8840712a4656849eb5d976dc661d23bac8b5e26dd4",
+      "benches/performance.rs": "3ccdeec29808c4c4ac957d8e51d12caa77b7391cd7c9972fbf46042ebd92e45d",
+      "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+    }
+  },
+  "phases": [
+    {
+      "name": "main",
+      "blocks": 12,
+      "batch_ms": 150,
+      "samples": 11,
+      "cases": [
+        "1000:true:1:0"
+      ]
+    },
+    {
+      "name": "controls",
+      "blocks": 4,
+      "batch_ms": 100,
+      "samples": 9,
+      "cases": [
+        "1000:true:10:0",
+        "1000:true:1:64",
+        "1000:false:1:0"
+      ]
+    }
+  ],
+  "order_indices": [
+    [
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      2,
+      0,
+      3
+    ],
+    [
+      2,
+      3,
+      1,
+      0
+    ],
+    [
+      3,
+      0,
+      2,
+      1
+    ]
+  ],
+  "names": [
+    "reference",
+    "previous",
+    "current",
+    "current_repeat"
+  ],
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "logical_cpus": 10,
+  "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "executable_sha256": {
+    "reference": "8b67c50ca105de950a6cc29a26d072fd9a9e18bd0c5d41f80b7b3de47f55bb8a",
+    "previous": "0a2506f5cabfa4a2d92fe67fc438b7a61ecb6e535bb4a83a4b54b855294ad030",
+    "current": "7b0da3c46c489a77c8598b422e39ab63306a01d729c2ae3d05bd6bf0408d4ad8",
+    "current_repeat": "7b0da3c46c489a77c8598b422e39ab63306a01d729c2ae3d05bd6bf0408d4ad8"
+  },
+  "method": "Four-side balanced orders; current_repeat uses the identical current binary; main mode rotation changes each four-block cycle; all samples retained.",
+  "completed_at": "2026-10-26T22:50:53+0800",
+  "elapsed_seconds": 683.5674353329999
+}

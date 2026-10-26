@@ -1,0 +1,26 @@
+[
+  {
+    "check": "legacy defaults: nine samples, original order",
+    "passed": true
+  },
+  {
+    "check": "custom sample count and mode rotation",
+    "passed": true
+  },
+  {
+    "check": "reject LIVEGRAPH_BENCH_SAMPLES=0 before measurement",
+    "passed": true
+  },
+  {
+    "check": "reject LIVEGRAPH_BENCH_BATCH_MS=60001 before measurement",
+    "passed": true
+  },
+  {
+    "check": "reject LIVEGRAPH_BENCH_MODE_ROTATION=4 before measurement",
+    "passed": true
+  },
+  {
+    "check": "Python syntax and CLI help",
+    "passed": true
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-10-26T09:53:34+0800",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "cargo_executable": "<home>/.rustup/toolchains/1.99.0-aarch64-apple-darwin/bin/cargo",
+  "logical_cpus": 10,
+  "source_sha256": {
+    "src/lib.rs": "186def4f0549eb236e7d6eb34a7f7cbd74df1ab17a3556c8510777a40717ff2e",
+    "benches/performance.rs": "3370fa1c0c781d108bebfea43d2be00779b8a00588c0b23344f1b891a1f095b3",
+    "Cargo.lock": "30b172f1aee23a87ec90ae07177816a9baf79fbc96499d07d764676b19e64e9f"
+  },
+  "update_samples": 9,
+  "update_min_batch_ms": 20,
+  "reader_samples": 5,
+  "reader_sample_ms": 200,
+  "retention_process_repeats": 3,
+  "cpu": "Apple M2 Pro",
+  "memory_bytes": 17179869184,
+  "os_version": "27.0.1",
+  "elapsed_seconds": 55.701682042,
+  "completed_at": "2026-10-26T09:54:30+0800"
+}

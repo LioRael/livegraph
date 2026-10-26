@@ -1,0 +1,17 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.09s
+   Doc-tests livegraph
+
+running 2 tests
+test src/lib.rs - LiveGraph::with_snapshot (line 732) ... ok
+test src/lib.rs - (line 7) ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 2 tests
+test src/lib.rs - LiveGraph::with_snapshot (line 743) - compile fail ... ok
+test src/lib.rs - Node (line 138) - compile fail ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+all doctests ran in 0.41s; merged doctests compilation took 0.30s

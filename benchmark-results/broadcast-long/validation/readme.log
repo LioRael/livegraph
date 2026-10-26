@@ -1,0 +1,9 @@
+
+running 3 tests
+test README.md - LiveGraph::Read_a_consistent_snapshot (line 68) ... ok
+test README.md - LiveGraph::Concurrent_read_modify_write (line 117) ... ok
+test README.md - LiveGraph::Define_and_update_a_graph (line 21) ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+all doctests ran in 0.28s; merged doctests compilation took 0.27s

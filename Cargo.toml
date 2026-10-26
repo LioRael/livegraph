@@ -1,0 +1,24 @@
+[package]
+name = "livegraph"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Typed dependency graphs with transactional snapshot publication"
+license = "MIT"
+repository = "https://github.com/LioRael/livegraph"
+documentation = "https://docs.rs/livegraph"
+readme = "README.md"
+keywords = ["graph", "incremental", "snapshot", "configuration", "dataflow"]
+categories = ["data-structures", "concurrency"]
+include = ["src/**", "tests/**", "examples/**", "benches/*.rs", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "CHANGELOG.md"]
+
+[dependencies]
+arc-swap = "1.9.3"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[[bench]]
+name = "performance"
+harness = false

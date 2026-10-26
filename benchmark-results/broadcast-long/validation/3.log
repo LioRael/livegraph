@@ -1,0 +1,94 @@
+   Compiling livegraph v0.1.0 (<workspace>/outputs/livegraph)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.75s
+     Running unittests src/lib.rs (target/debug/deps/livegraph-3db3107f00a382e1)
+
+running 9 tests
+test tests::scheduler_selects_once_from_staged_roots_and_completes_reachability ... ok
+test tests::exhausted_version_does_not_publish ... ok
+test tests::obsolete_payload_is_released_after_last_snapshot ... ok
+test tests::retired_and_rejected_payloads_are_dropped_after_unlocking ... ok
+test tests::broadcast_roots_keep_one_reachable_traversal_instead_of_restarting ... ok
+test tests::scheduler_epoch_wrap_clears_stale_marks_and_keeps_order ... ok
+test tests::snapshots_copy_only_touched_chunks_including_partial_tail ... ok
+test tests::adaptive_schedules_match_independent_reachability_on_permuted_dags ... ok
+test tests::deep_graph_uses_iterative_scheduling ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/adaptive.rs (target/debug/deps/adaptive-0875930663e21f7a)
+
+running 3 tests
+test build_panic_and_validation_failures_roll_back_both_strategies_and_recover ... ok
+test alternating_sparse_dense_and_threshold_updates_preserve_history_and_callback_counts ... ok
+test readers_remain_consistent_while_writer_alternates_strategies ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/borrowed.rs (target/debug/deps/borrowed-77cfbfb9c0d96121)
+
+running 7 tests
+test callback_runs_once_accepts_fn_once_and_returns_owned_results ... ok
+test checked_batch_can_leave_borrow_but_rejects_stale_values ... ok
+test nested_borrows_remain_consistent_when_fast_slots_are_exhausted ... ok
+test failed_build_and_validation_leave_borrowed_and_owned_versions_unchanged ... ok
+test writer_publishes_while_borrowed_references_stay_valid_and_then_reclaim ... ok
+test panic_releases_borrow_without_poisoning_writers ... ok
+test borrowed_readers_never_tear_with_two_writers ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/candidate_access.rs (target/debug/deps/candidate_access-97de58799833cec5)
+
+running 3 tests
+test failed_full_candidate_releases_payloads_after_the_commit_guard ... ok
+test dependency_checks_remain_identical_for_full_and_partial_candidates ... ok
+test full_and_partial_candidates_preserve_a_tail_block_and_forward_join_on_failure ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/concurrency.rs (target/debug/deps/concurrency-f4699de0c4712590)
+
+running 5 tests
+test recursive_compute_and_validation_commits_return_errors_instead_of_hanging ... ok
+test readers_keep_old_snapshot_while_candidate_is_blocked ... ok
+test failed_writer_does_not_leak_candidates_into_next_writer ... ok
+test checked_read_modify_write_retries_without_losing_increments ... ok
+test concurrent_writers_do_not_lose_disjoint_updates_and_readers_never_tear ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/graph.rs (target/debug/deps/graph-118462f8a0b02a47)
+
+running 13 tests
+test diagnostics_do_not_require_payload_debug ... ok
+test forward_dependencies_are_sorted ... ok
+test failed_set_invalidates_prior_staged_values ... ok
+test failed_build_rolls_back_all_resources_and_intermediate_nodes ... ok
+test cycles_are_rejected_before_callbacks_run ... ok
+test batch_is_validated_as_a_whole_and_empty_batch_is_noop ... ok
+test diamond_recomputes_once_and_reuses_unrelated_values ... ok
+test checked_batches_reject_stale_and_foreign_snapshots_before_callbacks ... ok
+test handles_changes_and_dependency_access_are_graph_scoped ... ok
+test initial_validation_and_build_errors_are_returned ... ok
+test missing_duplicate_and_foreign_definitions_rejected ... ok
+test multiple_roots_recompute_shared_descendant_once_per_commit ... ok
+test callback_panic_keeps_old_snapshot_and_writer_usable ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/sparse.rs (target/debug/deps/sparse-eefcdd67028ec36e)
+
+running 3 tests
+test untouched_constant_in_a_changed_block_survives_dense_updates ... ok
+test sparse_forward_dag_matches_full_evaluator_across_failures_and_retries ... ok
+test multiple_chunks_are_atomic_for_owned_and_borrowed_readers ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running benches/performance.rs (target/debug/deps/performance-53bfc0a572f31a7f)
+     Running unittests examples/config_reload.rs (target/debug/examples/config_reload-f6a219c8bbd6bb27)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

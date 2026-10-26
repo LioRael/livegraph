@@ -1,0 +1,22 @@
+{
+  "reference": {
+    "median_cpu_wall": 0.9893428988572786,
+    "min_cpu_wall": 0.520531944797003,
+    "max_cpu_wall": 0.9901937722909471
+  },
+  "previous": {
+    "median_cpu_wall": 0.9849766920194905,
+    "min_cpu_wall": 0.6633154871435292,
+    "max_cpu_wall": 0.9878469145369703
+  },
+  "current": {
+    "median_cpu_wall": 0.9772203876222623,
+    "min_cpu_wall": 0.9321130458430076,
+    "max_cpu_wall": 0.9902834372417513
+  },
+  "current_repeat": {
+    "median_cpu_wall": 0.9873930330451859,
+    "min_cpu_wall": 0.9733461167604369,
+    "max_cpu_wall": 0.9925617504233841
+  }
+}
