@@ -1,0 +1,405 @@
+.github/workflows/ci.yml
+  s_4d491a7c279199::t_aeb1365a909729 1-35
+.gitignore
+  s_4d491a7c279199::t_0bbb3203020bd2 1-4
+ACCESS_SCHEDULER_BENCHMARKS.md
+  s_4d491a7c279199::t_9f416f1618a1cf 1-207
+ADAPTIVE_UPDATE_BENCHMARKS.md
+  s_4d491a7c279199::t_0dd71a2b4b06b1 1-176
+BENCHMARKS.md
+  s_4d491a7c279199::t_9ddbd3817821f0 1-160
+BORROWED_READ_BENCHMARKS.md
+  s_4d491a7c279199::t_7d4ac80f64c8f1 1-108
+BROADCAST_STABILITY_REPORT.md
+  s_4d491a7c279199::t_dca504804e0e4d 1-158
+CHANGELOG.md
+  s_4d491a7c279199::t_23c6df7c629d63 1-15
+Cargo.lock
+  s_4d491a7c279199::t_3107b901b9d84d 1-25
+Cargo.toml
+  s_4d491a7c279199::t_e66e7ab5568bc0 1-24
+LICENSE
+  s_4d491a7c279199::t_5ec8c70759cac4 1-21
+README.md
+  s_4d491a7c279199::t_3c301f058cb076 1-210
+REVIEW.md
+  s_4d491a7c279199::t_5f16411681005b 1-33
+SPARSE_UPDATE_BENCHMARKS.md
+  s_4d491a7c279199::t_e728fecae31395 1-188
+VALIDATION.md
+  s_4d491a7c279199::t_498553c9ca778f 1-129
+benches/broadcast_long.py
+  s_4d491a7c279199::t_dd7a63759fc904 1-108
+benches/compare.py
+  s_4d491a7c279199::t_a617ef260dbc2a 1-98
+benches/performance.rs
+  s_4d491a7c279199::t_9cab80dd7e313c 1-436
+benches/run.py
+  s_4d491a7c279199::t_1558b30629d8e3 1-97
+benchmark-results/README.md
+  s_4d491a7c279199::t_87d1309c917ce8 1-5
+benchmark-results/access-scheduler-after/environment.json
+  s_4d491a7c279199::t_f43914276c1585 1-28
+benchmark-results/access-scheduler-after/readers-samples.csv
+  s_4d491a7c279199::t_2de69fa8704577 1-121
+benchmark-results/access-scheduler-after/readers.csv
+  s_4d491a7c279199::t_0826c67472652e 1-25
+benchmark-results/access-scheduler-after/retention.csv
+  s_4d491a7c279199::t_86ddb461ee6200 1-37
+benchmark-results/access-scheduler-after/updates-samples.csv
+  s_4d491a7c279199::t_45463d4180b2c8 1-973
+benchmark-results/access-scheduler-after/updates.csv
+  s_4d491a7c279199::t_723b5754608b49 1-109
+benchmark-results/access-scheduler-before/environment.json
+  s_4d491a7c279199::t_c91d28869fbb77 1-28
+benchmark-results/access-scheduler-before/readers-samples.csv
+  s_4d491a7c279199::t_6213bd6996953d 1-121
+benchmark-results/access-scheduler-before/readers.csv
+  s_4d491a7c279199::t_f628cb7d0fea0a 1-25
+benchmark-results/access-scheduler-before/retention.csv
+  s_4d491a7c279199::t_5002f218379d88 1-37
+benchmark-results/access-scheduler-before/updates-samples.csv
+  s_4d491a7c279199::t_c458c68c3946dc 1-973
+benchmark-results/access-scheduler-before/updates.csv
+  s_4d491a7c279199::t_ac7d6f7e3be6e7 1-109
+benchmark-results/access-scheduler-triple/after-samples.csv
+  s_4d491a7c279199::t_b18e25cbb65b9e 1-2917
+benchmark-results/access-scheduler-triple/after-updates.csv
+  s_4d491a7c279199::t_bed4ffaa60fdce 1-325
+benchmark-results/access-scheduler-triple/before-samples.csv
+  s_4d491a7c279199::t_37e333d8088825 1-2917
+benchmark-results/access-scheduler-triple/before-updates.csv
+  s_4d491a7c279199::t_7c3571a82e35bd 1-325
+benchmark-results/access-scheduler-triple/diagnostics/README.md
+  s_4d491a7c279199::t_e68eda879376f8 1-22
+benchmark-results/access-scheduler-triple/diagnostics/direct-result.json
+  s_4d491a7c279199::t_2292e2936ff312 1-323
+benchmark-results/access-scheduler-triple/diagnostics/direct-vs-original-large.json
+  s_4d491a7c279199::t_b70da79b8471f6 1-323
+benchmark-results/access-scheduler-triple/diagnostics/entry-choice-large.json
+  s_4d491a7c279199::t_0929dd4b9a8cd0 1-323
+benchmark-results/access-scheduler-triple/diagnostics/final-recheck.json
+  s_4d491a7c279199::t_35510ff2726c50 1-323
+benchmark-results/access-scheduler-triple/diagnostics/probe.py
+  s_4d491a7c279199::t_ceed6736f79e9a 1-21
+benchmark-results/access-scheduler-triple/diagnostics/reproduce.json
+  s_4d491a7c279199::t_e21e89dc532835 1-323
+benchmark-results/access-scheduler-triple/diagnostics/scheduler-result.json
+  s_4d491a7c279199::t_f5e5161e82ed0c 1-323
+benchmark-results/access-scheduler-triple/environment.json
+  s_4d491a7c279199::t_ee211352e17a6b 1-27
+benchmark-results/access-scheduler-triple/reference-samples.csv
+  s_4d491a7c279199::t_0f1afee8b29da2 1-2917
+benchmark-results/access-scheduler-triple/reference-updates.csv
+  s_4d491a7c279199::t_f58a8c4ee6805a 1-325
+benchmark-results/access-scheduler-triple/validation/1.log
+  s_4d491a7c279199::t_8450fb294f3052 1-2
+benchmark-results/access-scheduler-triple/validation/2.log
+  s_4d491a7c279199::t_3e9d4c9924fa3f 1-2
+benchmark-results/access-scheduler-triple/validation/3.log
+  s_4d491a7c279199::t_2f404358e5319e 1-94
+benchmark-results/access-scheduler-triple/validation/4.log
+  s_4d491a7c279199::t_22ec10d531188e 1-17
+benchmark-results/access-scheduler-triple/validation/5.log
+  s_4d491a7c279199::t_5f653efd0c3be6 1-7
+benchmark-results/access-scheduler-triple/validation/readme.log
+  s_4d491a7c279199::t_6ba9de76ea55c1 1-9
+benchmark-results/access-scheduler-triple/validation/results.json
+  s_4d491a7c279199::t_71d4b259c6c4c6 1-75
+benchmark-results/adaptive-after-1/environment.json
+  s_4d491a7c279199::t_c3ac4acbad25cb 1-28
+benchmark-results/adaptive-after-1/readers-samples.csv
+  s_4d491a7c279199::t_511210a531d18a 1-121
+benchmark-results/adaptive-after-1/readers.csv
+  s_4d491a7c279199::t_b0aa8c68a905c6 1-25
+benchmark-results/adaptive-after-1/retention.csv
+  s_4d491a7c279199::t_db9c6500bf2b3d 1-37
+benchmark-results/adaptive-after-1/updates-samples.csv
+  s_4d491a7c279199::t_2915b430048f0a 1-973
+benchmark-results/adaptive-after-1/updates.csv
+  s_4d491a7c279199::t_e7a96984e215cb 1-109
+benchmark-results/adaptive-after-2/environment.json
+  s_4d491a7c279199::t_864fd15f81cd99 1-28
+benchmark-results/adaptive-after-2/readers-samples.csv
+  s_4d491a7c279199::t_442ed1decc4fb5 1-121
+benchmark-results/adaptive-after-2/readers.csv
+  s_4d491a7c279199::t_a77a804a52c54c 1-25
+benchmark-results/adaptive-after-2/retention.csv
+  s_4d491a7c279199::t_d4829cc12d45a2 1-37
+benchmark-results/adaptive-after-2/updates-samples.csv
+  s_4d491a7c279199::t_a4af4319e2cea2 1-973
+benchmark-results/adaptive-after-2/updates.csv
+  s_4d491a7c279199::t_db1768eebce44c 1-109
+benchmark-results/adaptive-before/environment.json
+  s_4d491a7c279199::t_0274fd18eaf347 1-28
+benchmark-results/adaptive-before/readers-samples.csv
+  s_4d491a7c279199::t_7feafa4af047db 1-121
+benchmark-results/adaptive-before/readers.csv
+  s_4d491a7c279199::t_8c12e863eaad5c 1-25
+benchmark-results/adaptive-before/retention.csv
+  s_4d491a7c279199::t_540060f0002579 1-37
+benchmark-results/adaptive-before/updates-samples.csv
+  s_4d491a7c279199::t_5ffd1104d5959a 1-973
+benchmark-results/adaptive-before/updates.csv
+  s_4d491a7c279199::t_bdeefd36ddd845 1-109
+benchmark-results/adaptive-paired-final/after-samples.csv
+  s_4d491a7c279199::t_7b73b9c7956283 1-2917
+benchmark-results/adaptive-paired-final/after-updates.csv
+  s_4d491a7c279199::t_7c7595a6b2c3f5 1-325
+benchmark-results/adaptive-paired-final/before-samples.csv
+  s_4d491a7c279199::t_e7789d2113d660 1-2917
+benchmark-results/adaptive-paired-final/before-updates.csv
+  s_4d491a7c279199::t_6e5e30f3c736ce 1-325
+benchmark-results/adaptive-paired-final/environment.json
+  s_4d491a7c279199::t_8b05f776a9f1e9 1-22
+benchmark-results/adaptive-paired/after-samples.csv
+  s_1d1ebc94680cfb::t_76031d8d885f70 1-1945
+benchmark-results/adaptive-paired/after-updates.csv
+  s_1d1ebc94680cfb::t_efa3e2f74db26a 1-217
+benchmark-results/adaptive-paired/before-samples.csv
+  s_1d1ebc94680cfb::t_86c3a30bfe3936 1-1945
+benchmark-results/adaptive-paired/before-updates.csv
+  s_1d1ebc94680cfb::t_1ef78caf11b88d 1-217
+benchmark-results/adaptive-paired/environment.json
+  s_1d1ebc94680cfb::t_80ad7588c1606e 1-22
+benchmark-results/adaptive-selected-full/environment.json
+  s_4d491a7c279199::t_fc14308c2ca2e7 1-28
+benchmark-results/adaptive-selected-full/readers-samples.csv
+  s_4d491a7c279199::t_c106cbcd286f23 1-121
+benchmark-results/adaptive-selected-full/readers.csv
+  s_4d491a7c279199::t_f2a61270159dab 1-25
+benchmark-results/adaptive-selected-full/retention.csv
+  s_4d491a7c279199::t_934044ffa2d09c 1-37
+benchmark-results/adaptive-selected-full/updates-samples.csv
+  s_4d491a7c279199::t_7cea6a9997b112 1-973
+benchmark-results/adaptive-selected-full/updates.csv
+  s_4d491a7c279199::t_5565cd0b2ca3ae 1-109
+benchmark-results/adaptive-selected-paired/after-samples.csv
+  s_4d491a7c279199::t_3a811a6b9fbdcd 1-2917
+benchmark-results/adaptive-selected-paired/after-updates.csv
+  s_4d491a7c279199::t_513b9547d89599 1-325
+benchmark-results/adaptive-selected-paired/before-samples.csv
+  s_4d491a7c279199::t_7dd6a85a8218c2 1-2917
+benchmark-results/adaptive-selected-paired/before-updates.csv
+  s_4d491a7c279199::t_71c359bc88bcf1 1-325
+benchmark-results/adaptive-selected-paired/environment.json
+  s_4d491a7c279199::t_f44754ec2eef65 1-22
+benchmark-results/adaptive-selected-paired/validation.json
+  s_4d491a7c279199::t_a62e46a500da68 1-75
+benchmark-results/adaptive-selected-paired/validation/1.log
+  s_4d491a7c279199::t_2d4cf83e990d77 1-2
+benchmark-results/adaptive-selected-paired/validation/2.log
+  s_4d491a7c279199::t_64414aa5b9d7c1 1-2
+benchmark-results/adaptive-selected-paired/validation/3.log
+  s_4d491a7c279199::t_29a90b1f391839 1-84
+benchmark-results/adaptive-selected-paired/validation/4.log
+  s_4d491a7c279199::t_31d1a03a0713b6 1-17
+benchmark-results/adaptive-selected-paired/validation/5.log
+  s_4d491a7c279199::t_2f6db8fd6f9811 1-8
+benchmark-results/adaptive-selected-paired/validation/readme.log
+  s_4d491a7c279199::t_615b841f8cd70f 1-9
+benchmark-results/borrow-after-1/environment.json
+  s_4d491a7c279199::t_7a13e8e8a1b684 1-28
+benchmark-results/borrow-after-1/readers-samples.csv
+  s_4d491a7c279199::t_0d556ff1594395 1-121
+benchmark-results/borrow-after-1/readers.csv
+  s_4d491a7c279199::t_cf404469ec1cdb 1-25
+benchmark-results/borrow-after-1/retention.csv
+  s_4d491a7c279199::t_8c692965680e82 1-37
+benchmark-results/borrow-after-1/updates-samples.csv
+  s_4d491a7c279199::t_3ea8a568cff7df 1-973
+benchmark-results/borrow-after-1/updates.csv
+  s_4d491a7c279199::t_8e1f9346a1b9fb 1-109
+benchmark-results/borrow-after-2/environment.json
+  s_4d491a7c279199::t_ecefe90459bd4d 1-28
+benchmark-results/borrow-after-2/readers-samples.csv
+  s_4d491a7c279199::t_5a7ef956fe00b9 1-121
+benchmark-results/borrow-after-2/readers.csv
+  s_4d491a7c279199::t_14eee643a95115 1-25
+benchmark-results/borrow-after-2/retention.csv
+  s_4d491a7c279199::t_9eb5e002b3dd61 1-37
+benchmark-results/borrow-after-2/updates-samples.csv
+  s_4d491a7c279199::t_68365fcbe2dc68 1-973
+benchmark-results/borrow-after-2/updates.csv
+  s_4d491a7c279199::t_9dc08aff231138 1-109
+benchmark-results/borrow-before/environment.json
+  s_4d491a7c279199::t_a3a14675471dd8 1-23
+benchmark-results/borrow-before/readers-samples.csv
+  s_4d491a7c279199::t_c0a63ad1d1bfbc 1-81
+benchmark-results/borrow-before/readers.csv
+  s_4d491a7c279199::t_adf537e4721b9f 1-17
+benchmark-results/borrow-before/retention.csv
+  s_4d491a7c279199::t_fe37e1c7bf724d 1-37
+benchmark-results/borrow-before/updates-samples.csv
+  s_4d491a7c279199::t_e5e5c4174d6ecb 1-973
+benchmark-results/borrow-before/updates.csv
+  s_4d491a7c279199::t_cd142aded99e0f 1-109
+benchmark-results/broadcast-cpu-probe/cpu-summary.json
+  s_4d491a7c279199::t_b448296029e82b 1-22
+benchmark-results/broadcast-cpu-probe/environment.json
+  s_4d491a7c279199::t_58cb3f4f907d81 1-77
+benchmark-results/broadcast-cpu-probe/runner-used.py
+  s_4d491a7c279199::t_532e0183281fdd 1-108
+benchmark-results/broadcast-cpu-probe/runs.csv
+  s_4d491a7c279199::t_dde946a0e72764 1-17
+benchmark-results/broadcast-cpu-probe/samples.csv
+  s_4d491a7c279199::t_b26c1123fdba8b 1-529
+benchmark-results/broadcast-cpu-probe/summaries.csv
+  s_4d491a7c279199::t_8f066c3ff8f945 1-49
+benchmark-results/broadcast-long/analysis-and-report-used.py
+  s_4d491a7c279199::t_64923f96f166a5 1-62
+benchmark-results/broadcast-long/analysis.json
+  s_4d491a7c279199::t_9c9b9f2748e545 1-638
+benchmark-results/broadcast-long/cpu-analysis-used.py
+  s_4d491a7c279199::t_daefa962a25866 1-43
+benchmark-results/broadcast-long/environment.json
+  s_4d491a7c279199::t_8120399eef1dc2 1-87
+benchmark-results/broadcast-long/runner-used.py
+  s_4d491a7c279199::t_462225e78ea272 1-98
+benchmark-results/broadcast-long/runs.csv
+  s_4d491a7c279199::t_3098cb4283195a 1-97
+benchmark-results/broadcast-long/samples.csv
+  s_4d491a7c279199::t_23cfaccdaec10a 1-2881
+benchmark-results/broadcast-long/summaries.csv
+  s_4d491a7c279199::t_d53dc5927adc3f 1-289
+benchmark-results/broadcast-long/validation/1.log
+  s_4d491a7c279199::t_92a3add1e181f5 1-2
+benchmark-results/broadcast-long/validation/2.log
+  s_4d491a7c279199::t_03734c64428cbb 1-2
+benchmark-results/broadcast-long/validation/3.log
+  s_4d491a7c279199::t_12391a066f7178 1-94
+benchmark-results/broadcast-long/validation/4.log
+  s_4d491a7c279199::t_0aa2d106913059 1-17
+benchmark-results/broadcast-long/validation/5.log
+  s_4d491a7c279199::t_e7fe28eea2826c 1-7
+benchmark-results/broadcast-long/validation/harness.json
+  s_4d491a7c279199::t_ba2fa86bf147d4 1-26
+benchmark-results/broadcast-long/validation/native-cargo.json
+  s_4d491a7c279199::t_4115acb916e4eb 1-75
+benchmark-results/broadcast-long/validation/readme.log
+  s_4d491a7c279199::t_3460171e8f2cd5 1-9
+benchmark-results/environment.json
+  s_4d491a7c279199::t_c98ffa9f432346 1-23
+benchmark-results/readers-samples.csv
+  s_4d491a7c279199::t_ceaf9aae241286 1-81
+benchmark-results/readers.csv
+  s_4d491a7c279199::t_245b9d596d6ab1 1-17
+benchmark-results/retention.csv
+  s_4d491a7c279199::t_6ce4677ce6c246 1-37
+benchmark-results/run-2/environment.json
+  s_4d491a7c279199::t_2a70dc5d1dd106 1-23
+benchmark-results/run-2/readers-samples.csv
+  s_4d491a7c279199::t_618db7a1c062bd 1-81
+benchmark-results/run-2/readers.csv
+  s_4d491a7c279199::t_20e97329445ead 1-17
+benchmark-results/run-2/retention.csv
+  s_4d491a7c279199::t_3327e1ff3fe6fa 1-37
+benchmark-results/run-2/updates-samples.csv
+  s_4d491a7c279199::t_0540e03dcb7704 1-973
+benchmark-results/run-2/updates.csv
+  s_4d491a7c279199::t_e97bbfaa4f9d1b 1-109
+benchmark-results/sparse-after-1/environment.json
+  s_4d491a7c279199::t_4aff41a389cd4d 1-28
+benchmark-results/sparse-after-1/readers-samples.csv
+  s_4d491a7c279199::t_98aa31fa10f355 1-121
+benchmark-results/sparse-after-1/readers.csv
+  s_4d491a7c279199::t_494757fbdc48cd 1-25
+benchmark-results/sparse-after-1/retention.csv
+  s_4d491a7c279199::t_c5d97c9e3a00e2 1-37
+benchmark-results/sparse-after-1/updates-samples.csv
+  s_4d491a7c279199::t_ff5f1167e049ab 1-973
+benchmark-results/sparse-after-1/updates.csv
+  s_4d491a7c279199::t_8bcdeca4e9765a 1-109
+benchmark-results/sparse-after-2/environment.json
+  s_4d491a7c279199::t_93a1a04887f7bb 1-28
+benchmark-results/sparse-after-2/readers-samples.csv
+  s_4d491a7c279199::t_44a659b6672236 1-121
+benchmark-results/sparse-after-2/readers.csv
+  s_4d491a7c279199::t_a675dfad3c1a8c 1-25
+benchmark-results/sparse-after-2/retention.csv
+  s_4d491a7c279199::t_225415901bb8e5 1-37
+benchmark-results/sparse-after-2/updates-samples.csv
+  s_4d491a7c279199::t_78749414f79356 1-973
+benchmark-results/sparse-after-2/updates.csv
+  s_4d491a7c279199::t_7ef7c9e133dd82 1-109
+benchmark-results/sparse-after-3/environment.json
+  s_4d491a7c279199::t_2a78fe8661b4f9 1-28
+benchmark-results/sparse-after-3/readers-samples.csv
+  s_4d491a7c279199::t_c21dc547efc578 1-121
+benchmark-results/sparse-after-3/readers.csv
+  s_4d491a7c279199::t_98632f40297b63 1-25
+benchmark-results/sparse-after-3/retention.csv
+  s_4d491a7c279199::t_9db92c8c20bb2f 1-37
+benchmark-results/sparse-after-3/updates-samples.csv
+  s_4d491a7c279199::t_0b5adcf4cdf367 1-973
+benchmark-results/sparse-after-3/updates.csv
+  s_4d491a7c279199::t_493b81eaed79f4 1-109
+benchmark-results/sparse-before-repeat/environment.json
+  s_4d491a7c279199::t_6e319cdfed2f1a 1-28
+benchmark-results/sparse-before-repeat/readers-samples.csv
+  s_4d491a7c279199::t_c89140f2989b7f 1-121
+benchmark-results/sparse-before-repeat/readers.csv
+  s_4d491a7c279199::t_2412c6845144e7 1-25
+benchmark-results/sparse-before-repeat/retention.csv
+  s_4d491a7c279199::t_92d0ed4422ae33 1-37
+benchmark-results/sparse-before-repeat/updates-samples.csv
+  s_4d491a7c279199::t_f7352dba7fed36 1-973
+benchmark-results/sparse-before-repeat/updates.csv
+  s_4d491a7c279199::t_f2a705aecaa02d 1-109
+benchmark-results/sparse-before/environment.json
+  s_4d491a7c279199::t_d3e5b339a57eb8 1-28
+benchmark-results/sparse-before/readers-samples.csv
+  s_4d491a7c279199::t_7c29c17f83209f 1-121
+benchmark-results/sparse-before/readers.csv
+  s_4d491a7c279199::t_93d16b8e447d9a 1-25
+benchmark-results/sparse-before/retention.csv
+  s_4d491a7c279199::t_2509c46cb25659 1-37
+benchmark-results/sparse-before/updates-samples.csv
+  s_4d491a7c279199::t_fbf102de4d68bf 1-973
+benchmark-results/sparse-before/updates.csv
+  s_4d491a7c279199::t_2ed3e73e18cfe8 1-109
+benchmark-results/updates-samples.csv
+  s_4d491a7c279199::t_06dbf9d300a034 1-973
+benchmark-results/updates.csv
+  s_4d491a7c279199::t_26ac783ce716bc 1-109
+examples/config_reload.rs
+  s_4d491a7c279199::t_245e3d08b10136 1-60
+src/lib.rs
+  s_4d491a7c279199::t_2840d09857da91 1-1153
+tests/adaptive.rs
+  s_4d491a7c279199::t_9436617dafe435 1-179
+tests/borrowed.rs
+  s_4d491a7c279199::t_3ab8a8afdd6339 1-229
+tests/candidate_access.rs
+  s_4d491a7c279199::t_3f67fce990532a 1-143
+tests/concurrency.rs
+  s_4d491a7c279199::t_683edda424f19f 1-246
+tests/graph.rs
+  s_4d491a7c279199::t_8e21ea72dcb9e8 1-306
+tests/sparse.rs
+  s_4d491a7c279199::t_0d758ab8ffa3eb 1-208
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9c643242f0bc50adc4054f911bae13f03e13cecd",
+  "prompts": {},
+  "sessions": {
+    "s_1d1ebc94680cfb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a174e3-7a80-7303-89d2-f016a5e7e9de",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "LioRael <leo@lenso.dev>"
+    },
+    "s_4d491a7c279199": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a175cc-e1bd-74e1-acca-a2ddb42b8caa",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "LioRael <leo@lenso.dev>"
+    }
+  }
+}
