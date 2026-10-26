@@ -1,0 +1,21 @@
+VALIDATION.md
+  s_4d491a7c279199::t_26f5965ecde0f8 130-131
+benches/performance.rs
+  s_4d491a7c279199::t_9cf88c3fdc7dfe 307
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "82ff84555353f9e88f0e1d3f26c583468321f779",
+  "prompts": {},
+  "sessions": {
+    "s_4d491a7c279199": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a175cc-e1bd-74e1-acca-a2ddb42b8caa",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "LioRael <leo@lenso.dev>"
+    }
+  }
+}
